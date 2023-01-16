@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29676aee-10a9-480b-bfa7-7ed7338faa25" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/authorization/AuthorizationBadCredentialsQueryResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/authorization/AuthorizationBadCredentialsQueryResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/authorization/AuthorizationQueryResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/authorization/AuthorizationQueryResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/myPosts/MyPostsResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/myPosts/MyPostsResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/notMyPosts/NotMyPostsResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/notMyPosts/NotMyPostsResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/my.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/my.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/gb/authorization/AuthorizationAbstractTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/gb/authorization/AuthorizationAbstractTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/gb/authorization/AuthorizationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/gb/authorization/AuthorizationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/gb/myPosts/GetMyPostsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/gb/myPosts/GetMyPostsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/gb/myPosts/MyPostsAbstractTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/gb/myPosts/MyPostsAbstractTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/gb/notMyPosts/GetNotMyPostsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/gb/notMyPosts/GetNotMyPostsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/gb/notMyPosts/NotMyPostsAbstractTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/gb/notMyPosts/NotMyPostsAbstractTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="29676aee-10a9-480b-bfa7-7ed7338faa25" name="Changes" comment="Java Autotest API Done" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,18 +29,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ToolWindowRun.ShowToolbar": "false",
-    "last_opened_file_path": "C:/Users/GIGABYTE-PC/IdeaProjects/FinalProject",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15429688",
-    "project.structure.side.proportion": "0.5421965"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ToolWindowRun.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/GIGABYTE-PC/IdeaProjects/FinalProject&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15429688&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.5421965&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\GIGABYTE-PC\IdeaProjects\FinalProject\src\test\java\ru\gb\notMyPosts" />
@@ -64,6 +49,22 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.ru.gb in FinalProject">
+    <configuration name="AuthorizationTest.validLongLoginCredentialsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FinalProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.gb.authorization.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.gb.authorization" />
+      <option name="MAIN_CLASS_NAME" value="ru.gb.authorization.AuthorizationTest" />
+      <option name="METHOD_NAME" value="validLongLoginCredentialsTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GetMyPostsTest.getMyPostsPage1000NewToOld" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FinalProject" />
       <extension name="coverage">
@@ -75,22 +76,6 @@
       <option name="PACKAGE_NAME" value="ru.gb.myPosts" />
       <option name="MAIN_CLASS_NAME" value="ru.gb.myPosts.GetMyPostsTest" />
       <option name="METHOD_NAME" value="getMyPostsPage1000NewToOld" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GetMyPostsTest.getMyPostsPage1000OldToNew" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FinalProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.gb.myPosts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.gb.myPosts" />
-      <option name="MAIN_CLASS_NAME" value="ru.gb.myPosts.GetMyPostsTest" />
-      <option name="METHOD_NAME" value="getMyPostsPage1000OldToNew" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -145,10 +130,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ru.gb in FinalProject" />
+        <item itemvalue="JUnit.AuthorizationTest.validLongLoginCredentialsTest" />
         <item itemvalue="JUnit.GetMyPostsTest.getMyPostsPage1000NewToOld" />
         <item itemvalue="JUnit.GetMyPostsTest.getMyPostsPage3NewToOld" />
         <item itemvalue="JUnit.GetNotMyPostsTest.getNotMyPostsPage5000SortOldToNew" />
-        <item itemvalue="JUnit.GetMyPostsTest.getMyPostsPage1000OldToNew" />
       </list>
     </recent_temporary>
   </component>
@@ -161,6 +146,14 @@
       <option name="presentableId" value="Default" />
       <updated>1673810916581</updated>
     </task>
+    <task id="LOCAL-00001" summary="Java Autotest API Done">
+      <created>1673874752819</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673874752819</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -173,6 +166,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Java Autotest API Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java Autotest API Done" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
