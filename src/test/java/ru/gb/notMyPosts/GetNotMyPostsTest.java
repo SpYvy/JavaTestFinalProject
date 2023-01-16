@@ -10,14 +10,14 @@ import static org.hamcrest.Matchers.*;
 
 public class GetNotMyPostsTest extends NotMyPostsAbstractTest {
     private boolean isResultRandom(NotMyPostsResponse responseData) { // Метод поможет определить, что посты в ответе в случайном порядке
-        boolean result = false;
-        for(int i = 0; i < 4; i++){
-            if(responseData.getData().get(i).getId() >= 50 && responseData.getData().get(i).getId() <= 10000){
-                result = true;
-                break;
-            }
+        int descCounter = 0;
+        int ascCounter = 0;
+        for (int j = 0; j < 49; j++) {
+            if (responseData.getData().get(j).getId() > responseData.getData().get(j+1).getId()) {
+                descCounter++;
+            } else ascCounter++;
         }
-        return result;
+        return (descCounter != 49) && (ascCounter != 49);
     }
     @DisplayName("Запрос на получение постов без авторизации")
     @Test
