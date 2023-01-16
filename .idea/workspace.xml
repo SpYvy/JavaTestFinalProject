@@ -1,14 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="29676aee-10a9-480b-bfa7-7ed7338faa25" name="Changes" comment="" />
+    <list default="true" id="29676aee-10a9-480b-bfa7-7ed7338faa25" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/authorization/AuthorizationBadCredentialsQueryResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/authorization/AuthorizationBadCredentialsQueryResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/authorization/AuthorizationQueryResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/authorization/AuthorizationQueryResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/myPosts/MyPostsResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/myPosts/MyPostsResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/notMyPosts/NotMyPostsResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/notMyPosts/NotMyPostsResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/my.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/my.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/gb/authorization/AuthorizationAbstractTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/gb/authorization/AuthorizationAbstractTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/gb/authorization/AuthorizationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/gb/authorization/AuthorizationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/gb/myPosts/GetMyPostsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/gb/myPosts/GetMyPostsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/gb/myPosts/MyPostsAbstractTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/gb/myPosts/MyPostsAbstractTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/gb/notMyPosts/GetNotMyPostsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/gb/notMyPosts/GetNotMyPostsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/gb/notMyPosts/NotMyPostsAbstractTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/gb/notMyPosts/NotMyPostsAbstractTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2KNN7oCg76X5fO1iN0IVjFTxRoI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -19,9 +47,111 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ToolWindowRun.ShowToolbar": "false",
+    "last_opened_file_path": "C:/Users/GIGABYTE-PC/IdeaProjects/FinalProject",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15429688",
+    "project.structure.side.proportion": "0.5421965"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\GIGABYTE-PC\IdeaProjects\FinalProject\src\test\java\ru\gb\notMyPosts" />
+      <recent name="C:\Users\GIGABYTE-PC\IdeaProjects\FinalProject\src\main\java\ru\gb" />
+      <recent name="C:\Users\GIGABYTE-PC\IdeaProjects\FinalProject\src\test\java\ru\gb" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ru.gb in FinalProject">
+    <configuration name="GetMyPostsTest.getMyPostsPage1000NewToOld" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FinalProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.gb.myPosts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.gb.myPosts" />
+      <option name="MAIN_CLASS_NAME" value="ru.gb.myPosts.GetMyPostsTest" />
+      <option name="METHOD_NAME" value="getMyPostsPage1000NewToOld" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetMyPostsTest.getMyPostsPage1000OldToNew" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FinalProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.gb.myPosts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.gb.myPosts" />
+      <option name="MAIN_CLASS_NAME" value="ru.gb.myPosts.GetMyPostsTest" />
+      <option name="METHOD_NAME" value="getMyPostsPage1000OldToNew" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetMyPostsTest.getMyPostsPage3NewToOld" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FinalProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.gb.myPosts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.gb.myPosts" />
+      <option name="MAIN_CLASS_NAME" value="ru.gb.myPosts.GetMyPostsTest" />
+      <option name="METHOD_NAME" value="getMyPostsPage3NewToOld" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetNotMyPostsTest.getNotMyPostsPage5000SortOldToNew" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FinalProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.gb.notMyPosts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.gb.notMyPosts" />
+      <option name="MAIN_CLASS_NAME" value="ru.gb.notMyPosts.GetNotMyPostsTest" />
+      <option name="METHOD_NAME" value="getNotMyPostsPage5000SortOldToNew" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ru.gb in FinalProject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FinalProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.gb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.gb" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ru.gb in FinalProject" />
+        <item itemvalue="JUnit.GetMyPostsTest.getMyPostsPage1000NewToOld" />
+        <item itemvalue="JUnit.GetMyPostsTest.getMyPostsPage3NewToOld" />
+        <item itemvalue="JUnit.GetNotMyPostsTest.getNotMyPostsPage5000SortOldToNew" />
+        <item itemvalue="JUnit.GetMyPostsTest.getMyPostsPage1000OldToNew" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -32,5 +162,23 @@
       <updated>1673810916581</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="listener" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

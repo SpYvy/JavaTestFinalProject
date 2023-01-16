@@ -15,7 +15,7 @@ import lombok.Data;
         "meta"
 })
 @Data
-public class NotMyPostsRequest {
+public class NotMyPostsResponse {
     @JsonProperty("data")
     public List<PostsData> data = null;
     @JsonProperty("meta")
@@ -89,9 +89,9 @@ public class NotMyPostsRequest {
     @Data
     public static class Meta {
         @JsonProperty("prevPage")
-        public Integer prevPage;
+        public String prevPage;
         @JsonProperty("nextPage")
-        public Integer nextPage;
+        public String nextPage;
         @JsonProperty("count")
         public Integer count;
         @JsonIgnore

@@ -1,4 +1,4 @@
-package ru.gb.finalProject;
+package ru.gb.authorization;
 
 import java.util.HashMap;
 import java.util.List;
